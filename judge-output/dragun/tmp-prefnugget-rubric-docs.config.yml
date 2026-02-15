@@ -1,0 +1,25 @@
+name: prefnugget-rubric-docs
+create_nuggets: true
+create_qrels: true
+judge: true
+llm_model: openai/gpt-oss-120b
+timestamp: '2026-02-07T17:40:03.230169+00:00'
+git:
+  commit: 38b4c7cc70e0b74e390f7184240fefabf95f5cdd
+  dirty: 'true'
+  remote: git@github.com:laura-dietz/auto-judge-code-test.git
+settings:
+  filebase: tmp-{_name}
+  max_nuggets_per_topic: 20
+nugget_settings:
+  filebase: tmp-{_name}
+  max_nuggets_per_topic: 20
+  prompt: prefnugget-baseline
+judge_settings:
+  filebase: tmp-{_name}
+  max_nuggets_per_topic: 20
+  grade_threshold: 4
+  grade_text: document_paragraphs
+qrels_settings:
+  filebase: tmp-{_name}
+  max_nuggets_per_topic: 20
