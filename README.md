@@ -10,7 +10,7 @@ Inspired by preference-based evaluation, we derive differential nuggets from win
 
 
 
-## Full Empitical Analysis
+## Full Empirical Analysis
 
 Raw data from evaluation service: [empirical_data/](empirical_data/)
 
