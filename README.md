@@ -19,4 +19,4 @@ More plots and tables: [full_empirical_result_analysis.pdf](full_empirical_resul
 
 ## Prompts
 
-DSPy 3.1 prompts are used for all implemetations. See [Prefnugget Prompts](prompts.md)
+DSPy 3.1 prompts are used for all implemetations. See [Prefnugget Prompts](prompts.md) for the prompts of the method we propose.   Also here the full list of [prompts for all variants and baselines](all_prompts.md).
