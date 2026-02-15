@@ -15,3 +15,8 @@ Inspired by preference-based evaluation, we derive differential nuggets from win
 Raw data from evaluation service: [empirical_data/](empirical_data/)
 
 More plots and tables: [full_empirical_result_analysis.pdf](full_empirical_result_analysis.pdf)
+
+
+## Prompts
+
+DSPy 3.1 prompts are used for all implemetations. See [Prefnugget Prompts](prompts.md)
