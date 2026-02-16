@@ -28,3 +28,9 @@ See [Prefnugget Prompts](prompts.md) for the prompts of the method we propose.
 
 * DSPy Prompts: [all_prompts.md](all_prompts.md).
 * Control logic in pseudocode: [pseudocode.md](pseudocode.md)
+
+## Auto-Judge Impementation
+
+An Auto-Judge starterkit implementation of approaches is in [prefnugget-starterkit/](prefnugget-starterkit)
+
+See README for how to install, run, and evaluate
