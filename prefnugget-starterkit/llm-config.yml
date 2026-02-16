@@ -1,0 +1,4 @@
+model_preferences:
+  - "openai/gpt-oss-120b"
+on_no_match: "use_default"
+

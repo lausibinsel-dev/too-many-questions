@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prefnugget-starterkit"
+version = "0.3.2"
+description = "PrefNugget, GroundedNugget, and QueryOnlyNugget AutoJudge implementations"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Laura Dietz"}
+]
+keywords = ["trec", "autojudge", "rag", "evaluation", "ir"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "autojudge-base>=0.3.2",
+    "tqdm>=4.0",
+    "minima-llm>=0.2.0",
+    "dspy>=3.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+]
+evaluate = [
+    "autojudge-evaluate>=0.3.2",
+]
+
+[project.urls]
+Homepage = "https://anonymous.4open.science/r/too-many-questions/"
+Repository = "https://github.com/lausibinsel-dev/too-many-questions"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["judges*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
