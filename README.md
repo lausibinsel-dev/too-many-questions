@@ -31,6 +31,6 @@ See [Prefnugget Prompts](prompts.md) for the prompts of the method we propose.
 
 ## Auto-Judge Impementation
 
-An Auto-Judge starterkit implementation of approaches is in [prefnugget-starterkit/](prefnugget-starterkit)
+An Auto-Judge starterkit implementation of approaches is in [prefnugget-starterkit](https://github.com/laura-dietz/prefnugget-starterkit)
 
 See README for how to install, run, and evaluate
